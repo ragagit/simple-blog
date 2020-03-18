@@ -1,6 +1,6 @@
 import AxBlogService from './blog.service'
 
-describe("BlogService tests", () => {
+describe("AxBlogService tests", () => {
     test("Fetch data status", () => {
          AxBlogService.axget(AxBlogService.API_URL)
         .then(res => expect(res.status).toBe(200));

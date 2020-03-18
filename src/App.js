@@ -37,14 +37,14 @@ export default class App extends React.Component {
                 <a className="navbar-brand" href="/#">
                   <img src={logo} className="App-logo" alt="logo" />
                   React
-              </a>
+                </a>
                 <div className="navbar-nav mr-auto">
                   <Link to="/home" className="nav-item nav-link">
                     <FontAwesomeIcon icon={faHome} /> Home
-                </Link>
+                  </Link>
                   <Link to="/post" className="nav-item nav-link">
                     Post
-                </Link>
+                  </Link>
                 </div>
               </nav>
             </header>

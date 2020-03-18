@@ -60,7 +60,7 @@ describe("PostPage test suit", () => {
         fireEvent.change(titleInput, { target: { name: "title", value: title } })
         fireEvent.change(bodyInput, { target: { name: "body", value: body } })
         fireEvent.click(screen.getByTestId("sendbtn"))        
-        expect(postSuccess.post).toHaveBeenCalledTimes(1);
+        expect(postFailure.post).toHaveBeenCalledTimes(1);
         const posts = await screen.findByTestId('sendpostdiv')
         expect(posts).toHaveTextContent('An error has occurred sending your post.');
     })
