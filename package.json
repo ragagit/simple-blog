@@ -42,7 +42,8 @@
   },
     "jest": {
       "coveragePathIgnorePatterns": [
-        "./src/serviceWorker.js"
+        "./src/serviceWorker.js",
+        "./src/index.js"
       ]
     }
 }
