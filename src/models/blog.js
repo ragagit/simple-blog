@@ -1,4 +1,4 @@
-export default class Blog{
+export class Blog{
     constructor(userId, title, body){
         this.userId = userId;
         this.title = title;
