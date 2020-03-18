@@ -33,8 +33,8 @@ export default class App extends React.Component {
         <main role='main' className='flex-shrink-0'>
           <Router history={history}>
             <header>
-              <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">
+              <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+                <a className="navbar-brand" href="/#">
                   <img src={logo} className="App-logo" alt="logo" />
                   React
               </a>
